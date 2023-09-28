@@ -16,7 +16,7 @@
                         <input type="text" name="display">
                     </div>
                     <div class="center">
-                        <input type="button" value="AC" onclick="display.value += '' ">
+                        <input type="button" value="AC" onclick="display.value = '' ">
                         <input type="button" value="CE" onclick="display.value = display.value.toString().slice(0, -1)">
                         <input type="button" value="/" onclick="display.value += '/'">
                         <input type="button" value="." onclick="display.value += '.'">
@@ -46,6 +46,5 @@
                 </div>
             </form>
         </div>
-    <script src="calculator.js" async defer></script>
     </body>
 </html>

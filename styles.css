@@ -56,3 +56,8 @@ form input.equal {
 .center input[type=button] {
     width: 100%;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+}
